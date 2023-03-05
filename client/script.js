@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
 
   //fetching the data - chatbot response logic goes here
 
-const response = await fetch('http://localhost:5000/', {
+const response = await fetch('https://very-chat-bot.onrender.com', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
